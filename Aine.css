@@ -1,0 +1,106 @@
+
+#flex_1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50vw;
+}
+.sideNav{
+	background: white;
+	width: 6%;
+	display: flex;
+	flex-direction: column;
+;
+}
+.contant{
+	background: #ecedf273;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	
+	   box-shadow:  inset 10px 0 25px -5px #80808082;
+
+}
+.topNav{
+	background: white;
+	height: 116px;
+		   box-shadow:  inset 10px 0 26px -20px #000000e0;
+
+}
+.flex_2{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+    top: 23%;
+}
+.flex_3{
+	display: flex;
+	flex-direction:column ;
+	width: 70%;
+	margin-left: 196px;
+    margin-top: 7%;
+
+}
+.update{
+	background: white;
+    width: 248px;
+    height: 255px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 19px;
+}
+.or{
+	margin-left: 411px;
+    font-weight: 600;
+    font-size: 19px;
+}
+button{
+	background: white;
+    border: none;
+    height: 44px;
+    border-radius: 14px;
+    text-align: left;
+    font-weight: 800;
+}
+.update span{
+	position: relative;
+    top: 110px;
+}
+.img1 img{
+height: 74px;
+}
+.img1{
+	margin: 15px;
+}
+.img2{
+	display: flex;
+	flex-direction: column;
+	margin-top: 13px;
+    width: 100%;
+    height: 11%;
+    margin-left: 1px;
+    text-align: center;
+}
+.img2 span{
+	color: gray;
+}
+.sideNav :hover {
+  background-color: #F0F8FF;
+   border: 2px soild black;
+   box-shadow:  inset 10px 0 5px -5px #225376;
+}
+.img2 span :hover{
+	color: black;
+	font-weight: 600;
+}
+.img2 :hover{
+	background-color: #F0F8FF;
+    border: 2px soild black;
+    	   box-shadow:  inset 10px 0 5px -5px #225376;
+}
+#img3  :hover{
+	background-color: white;
+   border: none;
+   box-shadow:  none;
+
+}
